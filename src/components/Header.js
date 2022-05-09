@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <Wrapper>
       <ContentWrapper>
-        <Title>Where in the World?</Title>
+        <Title>Where in the world?</Title>
         <DarkModeButton onClick={toggleTheme}>
           <Icon />
           <ButtonText>Dark Mode</ButtonText>
