@@ -19,9 +19,9 @@ const CountryDetail = () => {
 
   return (
     <Wrapper>
-      <BackButton to="/">
+      <BackButton to="/testing-upload">
         <Icon />
-        Back
+        Back2
       </BackButton>
       <CountryWrapper>
         <ImageWrapper>

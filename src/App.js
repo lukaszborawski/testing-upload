@@ -16,8 +16,8 @@ function App() {
         <CountriesProvider>
           <BrowserRouter>
             <Routes>
-              <Route path='*' element={<Countries />} />
-              <Route path='/country/:id' element={<CountryDetail />} />
+              <Route path='/testing-upload' element={<Countries />} />
+              <Route path='/testing-upload/country/:id' element={<CountryDetail />} />
             </Routes>
           </BrowserRouter>
         </CountriesProvider>
