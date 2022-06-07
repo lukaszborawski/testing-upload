@@ -21,7 +21,7 @@ const CountryDetail = () => {
     <Wrapper>
       <BackButton to="/testing-upload">
         <Icon />
-        Back2
+        Back
       </BackButton>
       <CountryWrapper>
         <ImageWrapper>
@@ -108,7 +108,7 @@ const CountryDetail = () => {
                     return border.alpha3Code === item;
                   });
                   return (
-                    <BorderButton to={`/country/${bordersCountry.alpha3Code}`} key={item} >{bordersCountry.name}</BorderButton>
+                    <BorderButton to={`/testing-upload/country/${bordersCountry.alpha3Code}`} key={item} >{bordersCountry.name}</BorderButton>
                   )
                 }
                 )}
